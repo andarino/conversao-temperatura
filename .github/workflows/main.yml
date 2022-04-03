@@ -26,5 +26,5 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            andarino/andarino/conversaotemp:latest
-            andarino/andarino/conversaotemp:${{ github.run_number }}
+            andarino/conversaotemp:latest
+            andarino/conversaotemp:${{ github.run_number }}
